@@ -15,9 +15,9 @@ if (age >= 18) {
 }
 
 let films = ["Титаник", "Логан", "Человек-паук"];
-console.log(films[0]);
-console.log(films[1]);
-console.log(films[2]);
+for (let i = 0; i <= films.length; i++) {
+    console.log(films[i]);
+}
 
 function greet(name) {
     console.log("Зравствуйте,"+name+"!")
